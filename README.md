@@ -10,6 +10,7 @@ TODO:
   
   EXTRA: 
    - V pripade, ze nebude mozne stiahnut udaje z API, aplikacia zobrazi stav na zaklade posledneho uspesneho spustenia
+   - Responzivny dizajn - pri sirokouhlom okne zobrazi viac informacii 
   
   
 
