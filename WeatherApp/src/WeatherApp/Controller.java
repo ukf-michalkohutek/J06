@@ -2,14 +2,19 @@ package WeatherApp;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 
 public class Controller {
 
     @FXML private TextField polePreID;
+    @FXML private Text MestoTop;
+    @FXML private Text teplotaTop;
 
     JSONArray citiesArray;
 
@@ -20,7 +25,6 @@ public class Controller {
         } catch (Exception e) {
             System.out.println(e.toString());
         }
-        testy();
     }
 
     private void parseCities() throws Exception {
@@ -37,9 +41,5 @@ public class Controller {
     public void genData() {
 
 
-    }
-
-    public void testy() {
-        polePreID.setPromptText("Testy");
     }
 }
