@@ -1,0 +1,117 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<GridPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+    </padding>
+    <VBox>
+        <HBox spacing="20" alignment="BOTTOM_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <ImageView fx:id="image">
+                <Image url="@Clear.jpg" requestedWidth="750" requestedHeight="335"/>
+            </ImageView>
+            <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="750">
+                <columns>
+                    <TableColumn fx:id="datetimeColumn" prefWidth="120" text="date and time">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="dateTime"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="tempColumn" text="temperature">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="temperature"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="feels_likeColumn" prefWidth="75" text="feels like">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="feels_like"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="temp_minColumn" prefWidth="120" text="min. temperature">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="temp_min"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="temp_maxColumn" prefWidth="120" text="max. temperature">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="temp_max"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="pressureColumn" prefWidth="75" text="pressure">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="pressure"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="humidityColumn" prefWidth="75" text="humidity">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="humidity"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+        </HBox>
+        <HBox spacing="20" alignment="BOTTOM_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2" prefWidth="750">
+            <TextField fx:id="cityField" promptText="City" prefWidth="150"/>
+            <Button text="Update" onAction="#updateCity"/>
+        </HBox>
+        <HBox spacing="20" alignment="BOTTOM_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <ImageView fx:id="image2">
+                <Image url="@Clear.jpg" requestedWidth="750" requestedHeight="335"/>
+            </ImageView>
+            <TableView fx:id="tableView2" GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="750">
+                <columns>
+                    <TableColumn fx:id="datetimeColumn2" prefWidth="120" text="date and time">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="dateTime"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="tempColumn2" text="temperature">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="temperature"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="feels_likeColumn2" prefWidth="75" text="feels like">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="feels_like"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="temp_minColumn2" prefWidth="120" text="min. temperature">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="temp_min"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="temp_maxColumn2" prefWidth="120" text="max. temperature">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="temp_max"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="pressureColumn2" prefWidth="75" text="pressure">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="pressure"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn fx:id="humidityColumn2" prefWidth="75" text="humidity">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="humidity"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+        </HBox>
+        <HBox spacing="20" alignment="BOTTOM_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <Label fx:id="toDate" text="Last update: " />
+            <TextField fx:id="cityField2" promptText="City" prefWidth="150"/>
+            <Button text="Update" onAction="#updateCity2"/>
+        </HBox>
+    </VBox>
+</GridPane>
