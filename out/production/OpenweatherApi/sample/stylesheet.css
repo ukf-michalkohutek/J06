@@ -1,0 +1,85 @@
+.combo{
+    -fx-border-radius: 30 0 30 0;
+    -fx-background-color: transparent;
+    -fx-font-family: "Fira Code Light";
+    -fx-font-size: 28;
+    -fx-border-color: whitesmoke;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.date-label{
+    -fx-background-color: transparent;
+    -fx-font-family: "Fira Code Retina";
+    -fx-font-size: 26;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+    -fx-cursor: hand;
+}
+
+.tempeture{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 48;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.info{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 32;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.temp-1{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 28;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.temp-2{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 28;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.temp-3{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 28;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.day-1{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.day-2{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
+
+.day-3{
+    -fx-background-color: transparent;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-text-fill: whitesmoke;
+    -fx-text-alignment: center;
+}
