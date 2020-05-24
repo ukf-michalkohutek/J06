@@ -17,11 +17,8 @@
             <TextField fx:id="citySearchField" promptText="Insert City Name" onAction="#onSearch"/>
             <TableView fx:id="tableView">
                 <columns>
-                    <TableColumn fx:id="idCol" prefWidth="50" text="id">
-                        <cellValueFactory> <PropertyValueFactory property="id"/> </cellValueFactory>
-                    </TableColumn>
-                    <TableColumn fx:id="cityCol" prefWidth="200" text="City Name">
-                        <cellValueFactory> <PropertyValueFactory property="cityName"/> </cellValueFactory>
+                    <TableColumn fx:id="dateCol" prefWidth="200" text="Date">
+                        <cellValueFactory> <PropertyValueFactory property="date"/> </cellValueFactory>
                     </TableColumn>
                     <TableColumn fx:id="tempCol" prefWidth="100" text="Temperature">
                         <cellValueFactory> <PropertyValueFactory property="temp"/> </cellValueFactory>
@@ -37,11 +34,8 @@
             <TextField fx:id="citySearchField2" promptText="Insert City Name" onAction="#onSearch"/>
             <TableView fx:id="tableView2">
                 <columns>
-                    <TableColumn fx:id="idCol2" prefWidth="50" text="id">
-                        <cellValueFactory> <PropertyValueFactory property="id"/> </cellValueFactory>
-                    </TableColumn>
-                    <TableColumn fx:id="cityCol2" prefWidth="200" text="City Name">
-                        <cellValueFactory> <PropertyValueFactory property="cityName"/> </cellValueFactory>
+                    <TableColumn fx:id="dateCol2" prefWidth="200" text="Date">
+                        <cellValueFactory> <PropertyValueFactory property="date"/> </cellValueFactory>
                     </TableColumn>
                     <TableColumn fx:id="tempCol2" prefWidth="100" text="Temperature">
                         <cellValueFactory> <PropertyValueFactory property="temp"/> </cellValueFactory>
