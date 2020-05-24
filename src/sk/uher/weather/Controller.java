@@ -9,15 +9,12 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
 
-import java.io.FileReader;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.LinkedList;
 
 public class Controller {
     private final String APIKey = "5002fd410cb289dcdfe844fe50f2649f";
@@ -49,11 +46,7 @@ public class Controller {
 
     @FXML
     protected void initialize() {
-//        try {
-//            parseCities();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+
     }
 
     public void onSearch() {
@@ -66,17 +59,9 @@ public class Controller {
             focusedTable = tableView2;
             cityService.restart();
         }
-//        weatherService.cityName = citySearchField.getText();
-//        weatherService.restart();
     }
 
-//    private void parseCities() throws Exception {
-//        String citiesFileName = "src/sample/city.list.json";
-//        JSONArray citiesArray = (JSONArray) readJsonFromFile(citiesFileName);
-//        System.out.println(citiesArray.get(0));
-//    }
-
-    static HashMap<String, Weather> weatherHashMap = new HashMap<>();
+    static LinkedList<Weather> weatherLinkedList = new LinkedList<>();
 
     private void findResults(City city) {
         String uri = buildURI(city.getId());
@@ -97,38 +82,35 @@ public class Controller {
                 .thenApply(t -> jsonParse(t, city))
                 .join();
 
-        fillFocusedTable(weatherHashMap);
+        fillFocusedTable(weatherLinkedList);
     }
 
-    void fillFocusedTable(HashMap<String, Weather> weatherHashMap) {
+    void fillFocusedTable(LinkedList<Weather> weathers) {
         focusedTable.getItems().clear();
         ObservableList<Weather> data = focusedTable.getItems();
 
-        for (Weather weather : weatherHashMap.values()) {
+        for (Weather weather : weathers) {
             data.add(weather);
         }
+
+        String s = "|";
     }
 
     private static String jsonParse(String responseString, City city) {
         JSONObject result = new JSONObject(responseString);
         JSONArray resultDates = result.getJSONArray("list");
+        weatherLinkedList.clear();
 
-        for (int i = 0; i <= 24; i += 8) {
+        for (int i = 0; i < 24; i += 8) {
             String description = resultDates.getJSONObject(i).getJSONArray("weather").getJSONObject(0).getString("description");
             Double temperature = resultDates.getJSONObject(i).getJSONObject("main").getDouble("temp");
             String date = resultDates.getJSONObject(i).getString("dt_txt");
 
-            weatherHashMap.put(date, new Weather(city.getId(), city.getCityName(), temperature, date, description));
+            weatherLinkedList.add(new Weather(city.getId(), city.getCityName(), temperature, date, description));
         }
 
         return null;
     }
-
-//    private static Object readJsonFromFile(String citiesFileName) throws Exception {
-//        FileReader reader = new FileReader(citiesFileName);
-//        JSONParser jsonParser = new JSONParser();
-//        return jsonParser.parse(reader);
-//    }
 
     private class CityService extends Service<City> {
 

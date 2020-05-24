@@ -8,21 +8,6 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    //TODO:
-    // zobrazovat aktualny datetime
-    // ukladanie poslednych vyhladavanych miest v JSONe, zobrazit ich aj po spusteni aplikacie
-    // pocasie na 3 dni
-    // zmena farby pozadia podla teploty maybe?
-    // vyuzit metody z predchadzajucich zadani, len zmenit url
-    //
-    // PreparedStatement ps;
-    //        Connection con = this.getConnection();
-    //        String sqlSelect = "SELECT id FROM city WHERE name LIKE ?";
-    //        ps = con.prepareStatement(sqlSelect);
-    //        ps.setString(1,name);
-    //        ResultSet rs = ps.executeQuery();
-    //
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("ui.fxml"));
