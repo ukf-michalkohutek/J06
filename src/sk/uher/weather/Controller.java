@@ -39,8 +39,13 @@ public class Controller {
     }
 
     public void onSearch() {
-        cityService.cityName = citySearchField.getText();
-        cityService.restart();
+        if(this.citySearchField.isFocused()){
+            cityService.cityName = citySearchField.getText();
+            cityService.restart();
+        } else if(this.citySearchField2.isFocused()){
+            cityService.cityName = citySearchField2.getText();
+            cityService.restart();
+        }
 //        weatherService.cityName = citySearchField.getText();
 //        weatherService.restart();
     }

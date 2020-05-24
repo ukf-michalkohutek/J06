@@ -26,11 +26,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("ui.fxml"));
         loader.setControllerFactory(t -> new Controller(new CityProvider()));
         Parent root = loader.load();
 
-        primaryStage.setScene(new Scene(root, 300, 300));
+        primaryStage.setScene(new Scene(root, 1100, 300));
         primaryStage.show();
     }
 

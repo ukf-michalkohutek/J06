@@ -1,19 +1,30 @@
 package sk.uher.weather;
 
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+
 public class City {
-    private String cityName;
-    private int id;
+    private final SimpleStringProperty cityName = new SimpleStringProperty("Item Not Found");
+    private final SimpleIntegerProperty id = new SimpleIntegerProperty(-1);
 
     public City(int id, String cityName) {
-        this.id = id;
-        this.cityName = cityName;
+        setId(id);
+        setCityName(cityName);
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName.set(cityName);
+    }
+
+    public void setId(int id) {
+        this.id.set(id);
     }
 
     public String getCityName() {
-        return cityName;
+        return cityName.get();
     }
 
     public int getId() {
-        return id;
+        return id.get();
     }
 }

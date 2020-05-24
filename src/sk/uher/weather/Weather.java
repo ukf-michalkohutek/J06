@@ -1,16 +1,20 @@
 package sk.uher.weather;
 
+import javafx.beans.property.SimpleDoubleProperty;
+
 public class Weather extends City{
-    private String cityName;
-    private double temp;
-    private int id;
+    private final SimpleDoubleProperty temp = new SimpleDoubleProperty(0);
 
     public Weather(int id, String cityName, double temp) {
         super(id, cityName);
-        this.temp = temp;
+        setTemp(temp);
+    }
+
+    public void setTemp(double temp) {
+        this.temp.set(temp);
     }
 
     public double getTemp() {
-        return temp;
+        return temp.get();
     }
 }
