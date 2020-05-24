@@ -7,6 +7,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Background;
+import javafx.scene.paint.Color;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -93,7 +95,31 @@ public class Controller {
             data.add(weather);
         }
 
-        String s = "|";
+        changeBgColor(focusedTable);
+    }
+
+    private void changeBgColor(TableView focusedTable) {
+        String bgColor = "-fx-border-width: 5; -fx-border-color: ";
+        ObservableList<Weather> data = focusedTable.getItems();
+        if (data.get(0).getWeather().contains("clouds")) {
+            bgColor += "#828282";
+        } else if (data.get(0).getWeather().contains("drizzle")) {
+            bgColor += "#99adc4";
+        } else if (data.get(0).getWeather().contains("rain")) {
+            bgColor += "#0061d1";
+        } else if (data.get(0).getWeather().contains("storm")) {
+            bgColor += "#0c3666";
+        } else if (data.get(0).getWeather().contains("snow")) {
+            bgColor += "#ffffff";
+        } else if (data.get(0).getWeather().contains("mist")) {
+            bgColor += "#c2c2c2";
+        } else if (data.get(0).getWeather().contains("clear")) {
+            bgColor += "#4fcdff";
+        } else if (data.get(0).getWeather().contains("sun")) {
+            bgColor += "#ffff00";
+        }
+
+        focusedTable.setStyle(bgColor);
     }
 
     private static String jsonParse(String responseString, City city) {
