@@ -4,11 +4,11 @@ public class MockWeatherProvider implements WeatherSupplier {
 
     @Override
     public Weather get() {
-        return  new Weather(0, "Test", 0.0);
+        return  new Weather(0, "Test", 0.0, "today", "nice");
     }
 
     @Override
     public Weather get(String city) {
-        return new Weather(1, city, 19.5);
+        return new Weather(1, city, 19.5, "today", "nice");
     }
 }

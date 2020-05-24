@@ -14,7 +14,6 @@ public class Main extends Application {
     // pocasie na 3 dni
     // zmena farby pozadia podla teploty maybe?
     // vyuzit metody z predchadzajucich zadani, len zmenit url
-    // API KEY: 5002fd410cb289dcdfe844fe50f2649f
     //
     // PreparedStatement ps;
     //        Connection con = this.getConnection();
