@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WeatherAppController">
+    <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="750.0" GridPane.rowIndex="1" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <VBox fx:id="vboxL" prefHeight="420.0" prefWidth="375.0">
+                <children>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <ImageView fx:id="imageViewTop" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                            <Text fx:id="mestoTop" strokeType="OUTSIDE" strokeWidth="0.0" text="MestoTop">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="200.0" />
+                            <Text fx:id="tempTop" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="15.0" right="7.5" top="5.0" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Text fx:id="den1" strokeType="OUTSIDE" strokeWidth="0.0" text="Den 1">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="1000.0" />
+                            <Text fx:id="den1Temp" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="15.0" right="7.5" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Text fx:id="den2" strokeType="OUTSIDE" strokeWidth="0.0" text="Den 2">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="1000.0" />
+                            <Text fx:id="den2Temp" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="15.0" right="7.5" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Text fx:id="den3" strokeType="OUTSIDE" strokeWidth="0.0" text="Den 3">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="1000.0" />
+                            <Text fx:id="den3Temp" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="15.0" right="7.5" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox>
+                        <children>
+                            <TextField fx:id="textFieldL" prefHeight="26.0" prefWidth="190.0" promptText="Názov mesta" />
+                            <Region prefHeight="26.0" prefWidth="112.0" />
+                            <Button fx:id="buttonL" mnemonicParsing="false" text="GEN" />
+                        </children>
+                        <VBox.margin>
+                            <Insets bottom="5.0" left="15.0" right="7.5" />
+                        </VBox.margin>
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox fx:id="vboxR" prefHeight="420.0" prefWidth="375.0">
+                <children>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <ImageView fx:id="imageViewTopR" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                            <Text fx:id="mestoTopR" strokeType="OUTSIDE" strokeWidth="0.0" text="MestoTop">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="200.0" />
+                            <Text fx:id="tempTopR" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="7.5" right="15.0" top="5.0" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Text fx:id="den1R" strokeType="OUTSIDE" strokeWidth="0.0" text="Den 1">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="1000.0" />
+                            <Text fx:id="den1TempR" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="7.5" right="15.0" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Text fx:id="den2R" strokeType="OUTSIDE" strokeWidth="0.0" text="Den 2">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="1000.0" />
+                            <Text fx:id="den2TempR" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="7.5" right="15.0" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                            <Text fx:id="den3R" strokeType="OUTSIDE" strokeWidth="0.0" text="Den 3">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                            <Region prefHeight="200.0" prefWidth="1000.0" />
+                            <Text fx:id="den3TempR" strokeType="OUTSIDE" strokeWidth="0.0" text="X °C">
+                                <font>
+                                    <Font size="30.0" />
+                                </font>
+                                <HBox.margin>
+                                    <Insets top="25.0" />
+                                </HBox.margin>
+                            </Text>
+                        </children>
+                        <VBox.margin>
+                            <Insets left="7.5" right="15.0" />
+                        </VBox.margin>
+                    </HBox>
+                    <HBox>
+                        <children>
+                            <TextField fx:id="textFieldR" prefHeight="26.0" prefWidth="190.0" promptText="Názov mesta" />
+                            <Region prefHeight="26.0" prefWidth="112.0" />
+                            <Button fx:id="buttonR" mnemonicParsing="false" text="GEN" />
+                        </children>
+                        <VBox.margin>
+                            <Insets bottom="5.0" left="7.5" right="15.0" />
+                        </VBox.margin>
+                    </HBox>
+                </children>
+            </VBox>
+        </children>
+    </HBox>
+    <HBox>
+        <children>
+            <Text fx:id="dateTime" strokeType="OUTSIDE" strokeWidth="0.0" text="Dátum" textAlignment="CENTER" wrappingWidth="749.13671875">
+            <font>
+               <Font size="15.0" />
+            </font></Text>
+        </children>
+    </HBox>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

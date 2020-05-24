@@ -1,0 +1,15 @@
+GridPane {
+    -fx-background-image: url("../assets/bg2.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 750 440;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#den1, #den2, #den3 {
+    -fx-effect: dropshadow(three-pass-box,pink,15,0.7,1,1);
+}
+
+#den1Temp, #den2Temp, #den3Temp, #den1R, #den2R, #den3R, #den1TempR, #den2TempR, #den3TempR {
+    -fx-effect: dropshadow(three-pass-box,aqua,30,0.1,1,1);
+}
