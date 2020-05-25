@@ -1,0 +1,2 @@
+New York;2020-05-26 - light rain - Teplota: 23.1;2020-05-27 - clear sky - Teplota: 23.26;2020-05-28 - light rain - Teplota: 20.22
+Bratislava;2020-05-26 - scattered clouds - Teplota: 9.41;2020-05-27 - clear sky - Teplota: 9.56;2020-05-28 - scattered clouds - Teplota: 10.84

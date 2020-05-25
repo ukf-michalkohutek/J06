@@ -1,0 +1,37 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane fx:controller="sample.Controller"
+          fx:id="grid"
+          xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" style="-fx-background-color: lightblue">
+
+
+    <HBox>
+        <VBox>
+            <Label fx:id="fcity" style="-fx-font-size: 20"/>
+            <Label fx:id="fcfd" style="-fx-font-size: 15"/>
+            <Label fx:id="fcsd" style="-fx-font-size: 15"/>
+            <Label fx:id="fctd" style="-fx-font-size: 15"/>
+            <TextField fx:id="fi" promptText="City Name" prefWidth="400"/>
+            <Button text="Set" onAction="#setFirst"/>
+        </VBox>
+        <VBox>
+            <Label fx:id="scity" style="-fx-font-size: 20"/>
+            <Label fx:id="scfd" style="-fx-font-size: 15"/>
+            <Label fx:id="scsd" style="-fx-font-size: 15"/>
+            <Label fx:id="sctd" style="-fx-font-size: 15"/>
+            <TextField fx:id="si" promptText="City Name" prefWidth="400"/>
+            <Button text="Set" onAction="#setSecond"/>
+        </VBox>
+    </HBox>
+
+</GridPane>
