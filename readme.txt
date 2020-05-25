@@ -1,0 +1,1 @@
+pomohol mi Ján Miškoviè a Marek Koszonovszki

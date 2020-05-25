@@ -1,0 +1,82 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<GridPane fx:controller="weatherAppExample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="20" vgap="50">
+
+    <HBox>
+    <VBox spacing="300">
+        <VBox>
+            <HBox spacing="60">
+            <Label  fx:id="MainCity" text="No city searched"  style="-fx-font-size: 40"/>
+            <Label fx:id="MainTempeture" style="-fx-font-size: 40"/>
+            </HBox>
+            <HBox spacing="60">
+                <Label fx:id="dayOne" style="-fx-font-size: 40"/>
+                <Label fx:id="dayOneTemp" style="-fx-font-size: 40"/>
+            </HBox>
+            <HBox spacing="60">
+                <Label fx:id="dayTwo" style="-fx-font-size: 40"/>
+                <Label fx:id="dayTwoTemp"  style="-fx-font-size: 40"/>
+            </HBox>
+            <HBox spacing="60">
+                <Label fx:id="dayThree" style="-fx-font-size: 40"/>
+                <Label fx:id="dayThreeTemp"  style="-fx-font-size: 40"/>
+            </HBox>
+            <HBox spacing="10" alignment="bottom_left" >
+                <TextField fx:id="putInCity" promptText="Find city" prefWidth="200"/>
+                <Button fx:id="findtown"  mnemonicParsing="false" text="DO IT" />
+            </HBox>
+        </VBox>
+    </VBox>
+
+    <VBox >
+        <HBox>
+            <VBox >
+            <HBox spacing="60" >
+                <Label fx:id="NotMainCity" text="No city searched" style="-fx-font-size: 40"/>
+                <Label fx:id="NotMainTempeture" style="-fx-font-size: 40" />
+            </HBox>
+            <HBox spacing="60">
+                <Label fx:id="dayOne2" style="-fx-font-size: 40"/>
+                <Label fx:id="dayOneTemp2" style="-fx-font-size: 40"/>
+            </HBox>
+            <HBox spacing="60">
+                <Label fx:id="dayTwo2" style="-fx-font-size: 40"/>
+                <Label fx:id="dayTwoTemp2" style="-fx-font-size: 40"/>
+            </HBox>
+            <HBox spacing="60">
+                <Label fx:id="dayThree2" style="-fx-font-size: 40"/>
+                <Label fx:id="dayThreeTemp2" style="-fx-font-size: 40"/>
+            </HBox>
+                <HBox spacing="10" alignment="bottom_left" >
+                    <TextField fx:id="putInCity2" promptText="Find city" prefWidth="200"/>
+                    <Button fx:id="findtown2"  mnemonicParsing="false" text="DO IT" />
+                </HBox>
+                <HBox>
+                    <Text fx:id="datetime" strokeType="OUTSIDE" strokeWidth="0.5" textAlignment="CENTER">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Text>
+                </HBox>
+    </VBox>
+        </HBox>
+    </VBox>
+    </HBox>
+
+</GridPane>
