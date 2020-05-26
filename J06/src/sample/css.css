@@ -1,0 +1,68 @@
+.search-bar{
+    -fx-border-radius: 40 40 40 40;
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 28;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.weatherID{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 28;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.wind{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 28;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.date-label{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-cursor: hand;
+}
+
+.weatherToday{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 48;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.weatherTodayText{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 38;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.temperature{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 28;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.days{
+    -fx-background-color: transparent;
+    -fx-font-family: "Nirmala UI";
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
