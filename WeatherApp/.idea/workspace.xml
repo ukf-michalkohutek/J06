@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/previousCities.json" beforeDir="false" afterPath="$PROJECT_DIR$/previousCities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/previousCities2.json" beforeDir="false" afterPath="$PROJECT_DIR$/previousCities2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cities.db" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1Y4U3R64JQYyxlOAb7X6rJ0sOxL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/WeatherApp" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jano\IdeaProjects\J06\WeatherApp\src\WeatherApp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WeatherApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jano\IdeaProjects\J06\WeatherApp\src\weather" />
+      <recent name="C:\Users\Jano\IdeaProjects\J06\WeatherApp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="WeatherApp.Main" />
+      <module name="WeatherApp" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WeatherApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <task id="LOCAL-00001" summary="&#10;&#10;1. On openweathermap.org, the daily forecast API (https://openweathermap.org/forecast16) is paid.&#10;   At first, I wanted to use the free API (https://openweathermap.org/forecast5) for 5 day / 3 hour forecasts,&#10;   but it returns information for every 3 hours, instead of summing the whole day up (which is what we want), so it wasn't the best option.&#10;&#10;   The ideal API for our situation is the One Call API (https://openweathermap.org/api/one-call-api).&#10;   You can filter out the information and only get current weather + daily forecast for 7 days.&#10;   The only downside of this API is you must search by Lat and Lon instead of cityID.&#10;   For this reason, I made a function that gets the Lat and Lon for a given cityID (also from openweathermap), and decided to use the One Call API.&#10;&#10;   There might be a better solution, but this is the cleanest one I could figure out without paying for an API subscription,&#10;   or parsing through a ton of useless 3 hour forecast data.&#10;&#10;2. The date and time displayed at the top of the application is for the city you have selected, not your local time.&#10;&#10;3. The background of the application changes based on the current time of day (night/day)&#10;   and the current weather condition (Clear/Cloudy/Rain/Thunderstorm/Snow), of the city you selected.&#10;&#10;4. Displaying information about 2 cities at a time is done by pressing a button to move between pages.&#10;   To achieve this I had had to make a second copy of weather.fxml, weatherController.java and previousCities.json.&#10;   There is probably a smarter way to do it without having two separate files but I didn't have enough time to figure it out.&#10;&#10;5. The application remembers the last 3 cities you have selected, for both page 1 and page 2.&#10;   The city that shows up after you launch the application is the last city you had selected for that page.">
+      <created>1590345290267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590345290267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="&#10;&#10;1. On openweathermap.org, the daily forecast API (https://openweathermap.org/forecast16) is paid.&#10;   At first, I wanted to use the free API (https://openweathermap.org/forecast5) for 5 day / 3 hour forecasts,&#10;   but it returns information for every 3 hours, instead of summing the whole day up (which is what we want), so it wasn't the best option.&#10;&#10;   The ideal API for our situation is the One Call API (https://openweathermap.org/api/one-call-api).&#10;   You can filter out the information and only get current weather + daily forecast for 7 days.&#10;   The only downside of this API is you must search by Lat and Lon instead of cityID.&#10;   For this reason, I made a function that gets the Lat and Lon for a given cityID (also from openweathermap), and decided to use the One Call API.&#10;&#10;   There might be a better solution, but this is the cleanest one I could figure out without paying for an API subscription,&#10;   or parsing through a ton of useless 3 hour forecast data.&#10;&#10;2. The date and time displayed at the top of the application is for the city you have selected, not your local time.&#10;&#10;3. The background of the application changes based on the current time of day (night/day)&#10;   and the current weather condition (Clear/Cloudy/Rain/Thunderstorm/Snow), of the city you selected.&#10;&#10;4. Displaying information about 2 cities at a time is done by pressing a button to move between pages.&#10;   To achieve this I had had to make a second copy of weather.fxml, weatherController.java and previousCities.json.&#10;   There is probably a smarter way to do it without having two separate files but I didn't have enough time to figure it out.&#10;&#10;5. The application remembers the last 3 cities you have selected, for both page 1 and page 2.&#10;   The city that shows up after you launch the application is the last city you had selected for that page." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;1. On openweathermap.org, the daily forecast API (https://openweathermap.org/forecast16) is paid.&#10;   At first, I wanted to use the free API (https://openweathermap.org/forecast5) for 5 day / 3 hour forecasts,&#10;   but it returns information for every 3 hours, instead of summing the whole day up (which is what we want), so it wasn't the best option.&#10;&#10;   The ideal API for our situation is the One Call API (https://openweathermap.org/api/one-call-api).&#10;   You can filter out the information and only get current weather + daily forecast for 7 days.&#10;   The only downside of this API is you must search by Lat and Lon instead of cityID.&#10;   For this reason, I made a function that gets the Lat and Lon for a given cityID (also from openweathermap), and decided to use the One Call API.&#10;&#10;   There might be a better solution, but this is the cleanest one I could figure out without paying for an API subscription,&#10;   or parsing through a ton of useless 3 hour forecast data.&#10;&#10;2. The date and time displayed at the top of the application is for the city you have selected, not your local time.&#10;&#10;3. The background of the application changes based on the current time of day (night/day)&#10;   and the current weather condition (Clear/Cloudy/Rain/Thunderstorm/Snow), of the city you selected.&#10;&#10;4. Displaying information about 2 cities at a time is done by pressing a button to move between pages.&#10;   To achieve this I had had to make a second copy of weather.fxml, weatherController.java and previousCities.json.&#10;   There is probably a smarter way to do it without having two separate files but I didn't have enough time to figure it out.&#10;&#10;5. The application remembers the last 3 cities you have selected, for both page 1 and page 2.&#10;   The city that shows up after you launch the application is the last city you had selected for that page." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590342528102">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590342528101" />
+    <state x="552" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589536320781">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585222079397" />
+    <state x="552" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589536320781" />
+    <state x="1052" y="509" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588686059929">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1052" y="509" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1588686059929" />
+    <state x="1039" y="541" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1588721924378">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1039" y="541" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588721924378" />
+    <state x="919" y="392" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1588685981660">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="919" y="392" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588685981660" />
+    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1590239002556">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1590239002556" />
+    <state x="844" y="188" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590239295550">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="844" y="188" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590239295550" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590098180389">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590098180389" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590332136389">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590332136389" />
+    <state x="792" y="211" width="1450" height="1112" key="CommitChangelistDialog2" timestamp="1590345289460">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="792" y="211" width="1450" height="1112" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1590345289460" />
+    <state x="604" y="362" key="FileChooserDialogImpl" timestamp="1590342967024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="666" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584196911878" />
+    <state x="604" y="362" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1590342967024" />
+    <state width="2517" height="424" key="GridCell.Tab.0.bottom" timestamp="1590601847872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582201419237" />
+    <state width="2517" height="424" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590601847872" />
+    <state width="2517" height="424" key="GridCell.Tab.0.center" timestamp="1590601847872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582201419237" />
+    <state width="2517" height="424" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590601847872" />
+    <state width="2517" height="424" key="GridCell.Tab.0.left" timestamp="1590601847872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582201419237" />
+    <state width="2517" height="424" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590601847872" />
+    <state width="2517" height="424" key="GridCell.Tab.0.right" timestamp="1590601847872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582201419237" />
+    <state width="2517" height="424" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590601847872" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1590345600918">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590345600918" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1590345600918">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590345600918" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1590345600918">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590345600918" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1590345600918">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590345600918" />
+    <state x="735" y="211" width="1039" height="822" key="SettingsEditor" timestamp="1589536362176">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="551" y="157" width="1039" height="822" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582201268563" />
+    <state x="735" y="211" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1589536362176" />
+    <state x="1127" y="614" key="VCS.ChangelistChooser" timestamp="1590345368678">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1127" y="614" key="VCS.ChangelistChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1590345368678" />
+    <state x="872" y="433" width="1189" height="687" key="Vcs.Push.Dialog.v2" timestamp="1590345325936">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" width="1189" height="687" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1590345325936" />
+    <state x="1302" y="329" key="new project wizard" timestamp="1589673394369">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1302" y="329" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1589673394369" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1590341863316">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1590341863316" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="result" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
