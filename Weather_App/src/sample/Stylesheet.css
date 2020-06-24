@@ -1,0 +1,42 @@
+.text-field{
+    -fx-font-family: Copperplate;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-insets: 3;
+    -fx-padding: 1 3 1 3;
+}
+.label{
+    -fx-effect: dropshadow(three-pass-box, black, 2, 2, 0, 0);
+}
+
+.d0 {
+    -fx-font-family: Copperplate;
+    -fx-font-size: 70;
+    -fx-text-fill: azure;
+    -fx-text-alignment: center;
+}
+
+.f-w{
+    -fx-font-family: Copperplate;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-text-fill: azure;
+}
+
+.timenow{
+    -fx-font-family: Copperplate;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: azure;
+}
+
+.d1-d2{
+    -fx-font-family: Copperplate;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: azure;
+}
+.root{
+    -fx-background-color: chartreuse;
+}
